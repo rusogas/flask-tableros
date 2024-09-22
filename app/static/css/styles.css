@@ -1,0 +1,54 @@
+/* Aumentar el tamaño del texto del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f309b;
+    font-size: 34px;  /* Aumenta el tamaño de la fuente general */
+}
+/* Estilo básico para los botones */
+nav ul li a {
+    display: inline-block;  /* Para que el enlace se comporte como un bloque */
+    padding: 10px 20px;  /* Espaciado interno para que se vea como un botón */
+    margin: 5px;  /* Espaciado entre botones */
+    background-color: #b9db1e;  /* Color de fondo (azul) */
+    color: #fff;  /* Color del texto (blanco) */
+    text-decoration: none;  /* Quitar el subrayado del enlace */
+    border-radius: 5px;  /* Bordes redondeados */
+    font-weight: bold;  /* Texto en negrita */
+    text-align: center;  /* Centrar el texto dentro del botón */
+}
+
+/* Efecto al pasar el cursor (hover) */
+nav ul li a:hover {
+    background-color: #0056b3;  /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Efecto al hacer clic */
+nav ul li a:active {
+    background-color: #004085;  /* Cambia el color de fondo al hacer clic */
+}
+
+/* Aumentar el tamaño del título principal */
+header h1 {
+    margin: 0;
+    font-size: 4em;  /* Aumenta el tamaño del h1 */
+    text-align: center;  /* Centra el título horizontalmente */
+}
+
+
+/* Aumentar el tamaño del contenido principal */
+main {
+    padding: 20px;
+    font-size: 1.2em;  /* Aumenta el tamaño del texto principal */
+}
+
+/* Aumentar el tamaño del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1em;  /* Ajusta el tamaño del texto del pie de página */
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Flask App{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1> graficos de torta random </h1>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}" class="button">Home</a></li>
+                <li><a href="{{ url_for('tablero1') }}" class="button">Gráfico n° 1</a></li>
+                <li><a href="{{ url_for('tablero2') }}" class="button">Gráfico n° 2</a></li>
+                <li><a href="{{ url_for('tablero3') }}" class="button">Gráfico n° 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2024 My Flask App</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,8 @@
+venv/
+venv/Lib/site-packages/
+.venv/
+.venv/Lib/site-packages/
+__pycache__
+*log.log
+*log
+log
